@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class sumofallelementsofarray 
     {
         public static void main(String[]args)
-        {5
+        {
            Scanner sc=new Scanner(System.in);
            System.out.println("Enter size of array");
            int n=sc.nextInt();
