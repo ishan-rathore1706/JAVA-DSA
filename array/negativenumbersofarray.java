@@ -1,15 +1,23 @@
 package array;
-
+import java.util.Scanner;
 public class negativenumbersofarray {
     public static void main (String[] args)
     {
-         int[] a={1,-3,-54,-839,9238,-2938};
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the size of array");
+        int n=sc.nextInt();
 
+         int[] a=new int[n];
 
-         for(int i=0;i<a.length;i++)
+          System.out.println("Enter value of array");
+         for(int i=0;i<n;i++)
          {
-            if(a[i]<0)
-                System.out.print(a[i]);
+             a[i]=sc.nextInt();
+         }
+         for(int i=0;i<n;i++)
+         {
+             if(a[i]<0)
+                System.out.println(a[i]);
          }
     }
 }
