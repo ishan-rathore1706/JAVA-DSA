@@ -1,0 +1,30 @@
+package array;
+import java.util.Scanner;
+class MultiplyOddIndexBy2AndAdd10ToEvenElements
+{
+    
+    public static void main(String args[])
+    { 
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter length of array");
+        int n=sc.nextInt();
+
+        int[] arr=new int[n];
+       System.out.println("Enter arrray elements");
+       
+        for(int i=0;i<n;i++)
+        { 
+            arr[i]=sc.nextInt();
+            if(i%2==0)
+                arr[i]+=10;
+
+            else
+            arr[i]*=2;
+        }
+        System.out.print("Updated array :");
+        for(int i=0;i<n;i++)
+        {
+            System.out.print(arr[i]+" ");
+        }
+    }
+}
