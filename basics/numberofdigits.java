@@ -1,6 +1,9 @@
+package basics;
+
 import java.util.Scanner;
-class numdig
-{
+
+public class numberofdigits {
+    
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
@@ -19,4 +22,4 @@ class numdig
 }
  System.out.println("Number of digits are:"+" "+count);
         }
-    }
+}

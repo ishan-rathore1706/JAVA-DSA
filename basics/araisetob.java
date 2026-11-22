@@ -1,6 +1,9 @@
+package basics;
+
 import java.util.Scanner;
-class araisetob
-{
+
+public class araisetob {
+    
     public static void main(String args[])
 
     {

@@ -1,7 +1,8 @@
+package patternprinting;
 
 import java.util.Scanner;
-class sp5cd
-{
+
+public class flippedstar {
     public static void main(String args[])
     {
         System.out.println("Enter value of n");
@@ -18,7 +19,7 @@ class sp5cd
             for(int j=1;j<=i;j++)
             {
         
-             System.out.print(j+" ");
+             System.out.print("* ");
                 
 
             }

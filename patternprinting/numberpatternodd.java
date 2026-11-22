@@ -1,7 +1,9 @@
+package patternprinting;
+
 import java.util.Scanner;
-class sp4
-{
-    public static void main(String args[])
+
+public class numberpatternodd {
+     public static void main(String args[])
     {
         System.out.println("Enter value of n");
         Scanner sc =new Scanner(System.in);

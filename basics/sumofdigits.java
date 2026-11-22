@@ -1,7 +1,9 @@
+package basics;
+
 import java.util.Scanner;
-class sumofdigits
-{
-    public static void main(String args[])
+
+public class sumofdigits {
+        public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number to find sum of its digits:");
@@ -17,4 +19,5 @@ int sum=0;
 
        
       
-    }}
+    }
+}

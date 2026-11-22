@@ -1,8 +1,9 @@
+package patternprinting;
 
 import java.util.Scanner;
-class sp6
-{
-    public static void main(String args[])
+
+public class numberpattern {
+     public static void main(String args[])
     {
         System.out.println("Enter value of n");
         Scanner sc =new Scanner(System.in);
@@ -18,7 +19,7 @@ class sp6
             for(int j=1;j<=i;j++)
             {
         
-             System.out.print("* ");
+             System.out.print(j+" ");
                 
 
             }

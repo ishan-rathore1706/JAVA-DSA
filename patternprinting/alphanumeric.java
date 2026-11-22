@@ -1,6 +1,8 @@
+package patternprinting;
+
 import java.util.Scanner;
-class patternprintingsmall
-{
+
+public class alphanumeric {
     public static void main(String[] args)
     {
         int n;

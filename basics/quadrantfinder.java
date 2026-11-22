@@ -1,6 +1,6 @@
+package basics;
 import java.util.Scanner;
-class quadran
-{
+public class quadrantfinder {
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
@@ -29,6 +29,7 @@ class quadran
     else 
         System.out.println("X axis");
     
-    sc.close();
-}
-}
+      
+    
+    
+}}

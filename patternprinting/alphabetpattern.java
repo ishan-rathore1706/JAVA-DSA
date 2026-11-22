@@ -1,7 +1,9 @@
+package patternprinting;
+
 import java.util.Scanner;
-class sp7
-{
-    public static void main(String args[])
+
+public class alphabetpattern {
+     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
        System.out.println("Enter value of n");
@@ -19,4 +21,5 @@ class sp7
             System.out.print((char)(i+64)+" ");
         }
         System.out.println();
-       }}}
+       }}
+}
