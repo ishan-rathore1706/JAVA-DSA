@@ -1,6 +1,6 @@
 package array;
 import java.util.Scanner;
-public class searchinanarray {
+public class SearchInAnArray {
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);

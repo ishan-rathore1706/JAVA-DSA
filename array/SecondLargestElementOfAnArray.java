@@ -1,8 +1,8 @@
 package array;
-import java.util.Scanner;;
-public class seconlargestelementofarray {
+
+public class SecondLargestElementOfAnArray {
     public static void main(String[] args) {
-        Scanner sc= new Scanner(System.in);
+        
         int a[]={83,45,83,23,83,5,2,8,7};
      int max=Integer.MIN_VALUE;
         for(int i=0;i<a.length;i++)
