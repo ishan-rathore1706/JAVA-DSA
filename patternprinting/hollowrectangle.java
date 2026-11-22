@@ -1,5 +1,6 @@
+package patternprinting;
 import java.util.Scanner;
-class star
+class hollowrectangle
 {
     public static void main(String args[])
     {

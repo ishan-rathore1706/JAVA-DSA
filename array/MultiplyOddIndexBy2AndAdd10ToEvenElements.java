@@ -26,5 +26,6 @@ class MultiplyOddIndexBy2AndAdd10ToEvenElements
         {
             System.out.print(arr[i]+" ");
         }
+        
     }
 }

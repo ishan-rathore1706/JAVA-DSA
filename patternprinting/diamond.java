@@ -1,6 +1,9 @@
- import java.util.Scanner;
-class sp13
-{
+package patternprinting;
+
+import java.util.Scanner;
+
+public class diamond {
+
     public static void main(String args[])
     {
         System.out.println("Enter value of n");
