@@ -13,7 +13,7 @@ public class SecondLargestElementOfAnArray {
         int max2=Integer.MIN_VALUE;
         for(int i=0;i<a.length;i++)
         {
-            if(max2<a[i]&&a[i]<max)
+            if(max2<a[i]&&a[i]!=max)
                 max2=a[i];
         }
         System.out.println("Second largest element in the array is "+max2);
