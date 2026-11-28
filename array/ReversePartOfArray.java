@@ -1,6 +1,6 @@
 package array;
 
-
+// 2 pointer technique
 public class ReversePartOfArray {
         
     public static void main(String[] args) {
